@@ -84,7 +84,7 @@ void loop() {
         lcd.clear();
         lcd.print("Avslutter");
         delay(1000);
-      
+        sekunder += 1;
         svarf = false;
       }
     }
