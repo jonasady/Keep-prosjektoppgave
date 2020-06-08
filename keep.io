@@ -6,7 +6,7 @@
 
 //I tillegg defineres variablene svarf og svarb, styrke, lysverdi og verdier tilknyttet klokken
 //(sekunder, minutter, timer, sekundteller, minteller, timeteller). Disse tidsverdiene er satt til at klokka skal 
-//vaere 17:59:50 for at det fort(med et tidspenn på 10 sekunder) kan testes om implementasjonene som gjelder etter
+//vaere 17:59:50 for at det enkelt(med et tidspenn på 10 sekunder) kan testes om implementasjonene som gjelder etter
 //18:00:00 fungerer. I en realistisk situasjon stilles selvfoelgelig klokka etter faktisk tidspunkt.
 
 const int hoytaler = 8;
@@ -211,7 +211,5 @@ void loop() {
 //Metoden legger til en note og tid (int) og legger dette til i den innebygde metoden tone for 
 //aa gi ut lyd
   void alarm(int note, int duration){
-  
-
-  tone(hoytalerPin, note, duration);
+    tone(hoytalerPin, note, duration);
 }
