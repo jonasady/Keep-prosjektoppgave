@@ -4,7 +4,7 @@
 //Definerer hvor man finner inngangene til hoytaler, roed- og grønn verdi til RGB-lyset,
 //avslutt og svar-knappen, samt definerer inngangene paa liquid crystal displayet.
 
-//I tillegg defineres variablene svarf og svarb av typen boolean, styrke, lysverdi og verdier tilknyttet klokken
+//I tillegg defineres variablene svarf og svarb, styrke, lysverdi og verdier tilknyttet klokken
 //(sekunder, minutter, timer, sekundteller, minteller, timeteller). Disse tidsverdiene er satt til at klokka skal 
 //vaere 17:59:50 for at det fort(med et tidspenn på 10 sekunder) kan testes om implementasjonene som gjelder etter
 //18:00:00 fungerer. I en realistisk situasjon stilles selvfoelgelig klokka etter faktisk tidspunkt.
