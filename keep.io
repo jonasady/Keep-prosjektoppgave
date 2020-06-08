@@ -50,7 +50,7 @@ void loop() {
        lcd.clear();
        lcd.print("Naa kan du ringe");
        
-       beep(440, 650);
+       alarm(440, 650);
      
     }
     else{
@@ -174,7 +174,7 @@ void loop() {
   
 
 }
-  void beep(int note, int duration){
+  void alarm(int note, int duration){
   
 
   tone(buzzerPin, note, duration);
